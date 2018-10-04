@@ -1,0 +1,309 @@
+////
+/// Column classes.
+///
+/// @group  Base
+/// @author Lee Anthony <seothemeswp@gmail.com>
+/// @link   https://github.com/seothemes/genesis-starter-theme
+///
+/// Unit test:
+///
+/// [class*="one"],
+/// [class*="two"],
+/// [class*="three"],
+/// [class*="four"],
+/// [class*="five"] {
+/// 	margin-bottom: $gutter;
+/// 	padding: $spacing--m;
+/// 	background-color: $color--gray-20;
+/// }
+////
+
+.grid {
+
+	@include grid;
+}
+
+.full-width {
+	width: 100%;
+}
+
+@media only screen and (min-width: $breakpoint) {
+
+	.column,
+	.one-half,
+	.one-third,
+	.one-fourth,
+	.one-fifth,
+	.one-sixth,
+	.one-seventh,
+	.one-eighth,
+	.one-ninth,
+	.one-tenth,
+	.one-eleventh,
+	.one-twelfth,
+	.two-thirds,
+	.two-fourths,
+	.two-fifths,
+	.two-sixths,
+	.two-sevenths,
+	.two-eighths,
+	.two-ninths,
+	.two-tenths,
+	.two-elevenths,
+	.two-twelfths,
+	.three-fourths,
+	.three-fifths,
+	.three-sixths,
+	.three-sevenths,
+	.three-eighths,
+	.three-ninths,
+	.three-tenths,
+	.three-elevenths,
+	.three-twelfths,
+	.four-fifths,
+	.four-sixths,
+	.four-sevenths,
+	.four-eighths,
+	.four-ninths,
+	.four-tenths,
+	.four-elevenths,
+	.four-twelfths,
+	.five-sixths,
+	.five-sevenths,
+	.five-eighths,
+	.five-ninths,
+	.five-tenths,
+	.five-elevenths,
+	.five-twelfths,
+	.six-sevenths,
+	.six-eighths,
+	.six-ninths,
+	.six-tenths,
+	.six-elevenths,
+	.six-twelfths,
+	.seven-eighths,
+	.seven-ninths,
+	.seven-tenths,
+	.seven-elevenths,
+	.seven-twelfths,
+	.eight-ninths,
+	.eight-tenths,
+	.eight-elevenths,
+	.eight-twelfths,
+	.nine-tenths,
+	.nine-elevenths,
+	.nine-twelfths,
+	.ten-elevenths,
+	.ten-twelfths,
+	.eleven-twelfths {
+		float: left;
+		margin-bottom: $gutter;
+		margin-left: $gutter;
+	}
+
+	.one-half,
+	.two-fourths,
+	.three-sixths,
+	.four-eighths,
+	.five-tenths,
+	.six-twelfths {
+		width: $one-half;
+	}
+
+	.one-third,
+	.two-sixths,
+	.three-ninths,
+	.four-twelfths {
+		width: $one-third;
+	}
+
+	.one-fourth,
+	.two-eighths,
+	.three-twelfths {
+		width: $one-fourth;
+	}
+
+	.one-fifth,
+	.two-tenths {
+		width: $one-fifth;
+	}
+
+	.one-sixth,
+	.two-twelfths {
+		width: $one-sixth;
+	}
+
+	.one-seventh {
+		width: $one-seventh;
+	}
+
+	.one-eighth {
+		width: $one-eighth;
+	}
+
+	.one-ninth {
+		width: $one-ninth;
+	}
+
+	.one-tenth {
+		width: $one-tenth;
+	}
+
+	.one-eleventh {
+		width: $one-eleventh;
+	}
+
+	.one-twelfth {
+		width: $one-twelfth;
+	}
+
+	.two-thirds,
+	.four-sixths,
+	.six-ninths,
+	.eight-twelfths {
+		width: $two-thirds;
+	}
+
+	.two-fifths,
+	.four-tenths {
+		width: $two-fifths;
+	}
+
+	.two-sevenths {
+		width: $two-sevenths;
+	}
+
+	.two-ninths {
+		width: $two-ninths;
+	}
+
+	.two-elevenths {
+		width: $two-elevenths;
+	}
+
+	.three-fourths,
+	.six-eighths,
+	.nine-twelfths {
+		width: $three-fourths;
+	}
+
+	.three-fifths,
+	.six-tenths {
+		width: $three-fifths;
+	}
+
+	.three-sevenths {
+		width: $three-sevenths;
+	}
+
+	.three-eighths {
+		width: $three-eighths;
+	}
+
+	.three-tenths {
+		width: $three-tenths;
+	}
+
+	.three-elevenths {
+		width: $three-elevenths;
+	}
+
+	.four-fifths,
+	.eight-tenths {
+		width: $four-fifths;
+	}
+
+	.four-sevenths {
+		width: $four-sevenths;
+	}
+
+	.four-ninths {
+		width: $four-ninths;
+	}
+
+	.four-elevenths {
+		width: $four-elevenths;
+	}
+
+	.five-sixths,
+	.ten-twelfths {
+		width: $five-sixths;
+	}
+
+	.five-sevenths {
+		width: $five-sevenths;
+	}
+
+	.five-eighths {
+		width: $five-eighths;
+	}
+
+	.five-ninths {
+		width: $five-ninths;
+	}
+
+	.five-elevenths {
+		width: $five-elevenths;
+	}
+
+	.five-twelfths {
+		width: $five-twelfths;
+	}
+
+	.six-sevenths {
+		width: $six-sevenths;
+	}
+
+	.six-elevenths {
+		width: $six-elevenths;
+	}
+
+	.seven-eighths {
+		width: $seven-eighths;
+	}
+
+	.seven-ninths {
+		width: $seven-ninths;
+	}
+
+	.seven-tenths {
+		width: $seven-tenths;
+	}
+
+	.seven-elevenths {
+		width: $seven-elevenths;
+	}
+
+	.seven-twelfths {
+		width: $seven-twelfths;
+	}
+
+	.eight-ninths {
+		width: $eight-ninths;
+	}
+
+	.eight-elevenths {
+		width: $eight-elevenths;
+	}
+
+	.nine-tenths {
+		width: $nine-tenths;
+	}
+
+	.nine-elevenths {
+		width: $nine-elevenths;
+	}
+
+	.ten-elevenths {
+		width: $ten-elevenths;
+	}
+
+	.eleven-twelfths {
+		width: $eleven-twelfths;
+	}
+
+	.first {
+		clear: both;
+		margin-left: 0;
+	}
+}

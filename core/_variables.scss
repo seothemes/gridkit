@@ -1,0 +1,176 @@
+////
+/// Setting imports.
+///
+/// Settings handle the configuration and don't output CSS. This is good
+/// to define things like variables.
+///
+/// @group  Settings
+/// @author Lee Anthony <seothemeswp@gmail.com>
+/// @link   https://seothemes.com/themes/genesis-starter-theme
+////
+
+// Breakpoint.
+$breakpoint: 896px !default;
+
+// Gutter.
+$gutter: 20px !default;
+
+// One fractions.
+$one-half: calc((100% - (#{$gutter} * 1)) / 2);
+$one-third: calc((100% - (#{$gutter} * 2)) / 3);
+$one-fourth: calc((100% - (#{$gutter} * 3)) / 4);
+$one-fifth: calc((100% - (#{$gutter} * 4)) / 5);
+$one-sixth: calc((100% - (#{$gutter} * 5)) / 6);
+$one-seventh: calc((100% - (#{$gutter} * 6)) / 7);
+$one-eighth: calc((100% - (#{$gutter} * 7)) / 8);
+$one-ninth: calc((100% - (#{$gutter} * 8)) / 9);
+$one-tenth: calc((100% - (#{$gutter} * 9)) / 10);
+$one-eleventh: calc((100% - (#{$gutter} * 10)) / 11);
+$one-twelfth: calc((100% - (#{$gutter} * 11)) / 12);
+
+// Two fractions.
+$two-thirds: calc(#{$one-third} * 2 + #{$gutter});
+$two-fourths: calc(#{$one-fourth} * 2 + #{$gutter});
+$two-fifths: calc(#{$one-fifth} * 2 + #{$gutter});
+$two-sixths: calc(#{$one-sixth} * 2 + #{$gutter});
+$two-sevenths: calc(#{$one-seventh} * 2 + #{$gutter});
+$two-eighths: calc(#{$one-eighth} * 2 + #{$gutter});
+$two-ninths: calc(#{$one-ninth} * 2 + #{$gutter});
+$two-tenths: calc(#{$one-tenth} * 2 + #{$gutter});
+$two-elevenths: calc(#{$one-eleventh} * 2 + #{$gutter});
+$two-twelfths: calc(#{$one-twelfth} * 2 + #{$gutter});
+
+// Three fractions.
+$three-fourths: calc(#{$one-fourth} * 3 + (#{$gutter} * 2));
+$three-fifths: calc(#{$one-fifth} * 3 + (#{$gutter} * 2));
+$three-sixths: calc(#{$one-sixth} * 3 + (#{$gutter} * 2));
+$three-sevenths: calc(#{$one-seventh} * 3 + (#{$gutter} * 2));
+$three-eighths: calc(#{$one-eighth} * 3 + (#{$gutter} * 2));
+$three-ninths: calc(#{$one-ninth} * 3 + (#{$gutter} * 2));
+$three-tenths: calc(#{$one-tenth} * 3 + (#{$gutter} * 2));
+$three-elevenths: calc(#{$one-eleventh} * 3 + (#{$gutter} * 2));
+$three-twelfths: calc(#{$one-twelfth} * 3 + (#{$gutter} * 2));
+
+// Four fractions.
+$four-fifths: calc(#{$one-fifth} * 4 + (#{$gutter} * 3));
+$four-sixths: calc(#{$one-sixth} * 4 + (#{$gutter} * 3));
+$four-sevenths: calc(#{$one-seventh} * 4 + (#{$gutter} * 3));
+$four-eighths: calc(#{$one-eighth} * 4 + (#{$gutter} * 3));
+$four-ninths: calc(#{$one-ninth} * 4 + (#{$gutter} * 3));
+$four-tenths: calc(#{$one-tenth} * 4 + (#{$gutter} * 3));
+$four-elevenths: calc(#{$one-eleventh} * 4 + (#{$gutter} * 3));
+$four-twelfths: calc(#{$one-twelfth} * 4 + (#{$gutter} * 3));
+
+// Five fractions.
+$five-sixths: calc(#{$one-sixth} * 5 + (#{$gutter} * 4));
+$five-sevenths: calc(#{$one-seventh} * 5 + (#{$gutter} * 4));
+$five-eighths: calc(#{$one-eighth} * 5 + (#{$gutter} * 4));
+$five-ninths: calc(#{$one-ninth} * 5 + (#{$gutter} * 4));
+$five-tenths: calc(#{$one-tenth} * 5 + (#{$gutter} * 4));
+$five-elevenths: calc(#{$one-eleventh} * 5 + (#{$gutter} * 4));
+$five-twelfths: calc(#{$one-twelfth} * 5 + (#{$gutter} * 4));
+
+// Six fractions.
+$six-sevenths: calc(#{$one-seventh} * 6 + (#{$gutter} * 5));
+$six-eighths: calc(#{$one-eighth} * 6 + (#{$gutter} * 5));
+$six-ninths: calc(#{$one-ninth} * 6 + (#{$gutter} * 5));
+$six-tenths: calc(#{$one-tenth} * 6 + (#{$gutter} * 5));
+$six-elevenths: calc(#{$one-eleventh} * 6 + (#{$gutter} * 5));
+$six-twelfths: calc(#{$one-twelfth} * 6 + (#{$gutter} * 5));
+
+// Seven fractions.
+$seven-eighths: calc(#{$one-eighth} * 7 + (#{$gutter} * 6));
+$seven-ninths: calc(#{$one-ninth} * 7 + (#{$gutter} * 6));
+$seven-tenths: calc(#{$one-tenth} * 7 + (#{$gutter} * 6));
+$seven-elevenths: calc(#{$one-eleventh} * 7 + (#{$gutter} * 6));
+$seven-twelfths: calc(#{$one-twelfth} * 7 + (#{$gutter} * 6));
+
+// Eight fractions.
+$eight-ninths: calc(#{$one-ninth} * 8 + (#{$gutter} * 7));
+$eight-tenths: calc(#{$one-tenth} * 8 + (#{$gutter} * 7));
+$eight-elevenths: calc(#{$one-eleventh} * 8 + (#{$gutter} * 7));
+$eight-twelfths: calc(#{$one-twelfth} * 8 + (#{$gutter} * 7));
+
+// Nine fractions.
+$nine-tenths: calc(#{$one-tenth} * 9 + (#{$gutter} * 8));
+$nine-elevenths: calc(#{$one-eleventh} * 9 + (#{$gutter} * 8));
+$nine-twelfths: calc(#{$one-twelfth} * 9 + (#{$gutter} * 8));
+
+// Ten fractions.
+$ten-elevenths: calc(#{$one-eleventh} * 10 + (#{$gutter} * 9));
+$ten-twelfths: calc(#{$one-twelfth} * 10 + (#{$gutter} * 9));
+
+// Eleven fractions.
+$eleven-twelfths: calc(#{$one-twelfth} * 11 + (#{$gutter} * 10));
+
+///
+/// Columns map
+///
+$columns: (
+	one-half: $one-half,
+	one-third: $one-third,
+	one-fourth: $one-fourth,
+	one-fifth: $one-fifth,
+	one-sixth: $one-sixth,
+	one-seventh: $one-seventh,
+	one-eighth: $one-eighth,
+	one-ninth: $one-ninth,
+	one-tenth: $one-tenth,
+	one-eleventh: $one-eleventh,
+	one-twelfth: $one-twelfth,
+	two-thirds: $two-thirds,
+	two-fourths: $two-fourths,
+	two-fifths: $two-fifths,
+	two-sixths: $two-sixths,
+	two-sevenths: $two-sevenths,
+	two-eighths: $two-eighths,
+	two-ninths: $two-ninths,
+	two-tenths: $two-tenths,
+	two-elevenths: $two-elevenths,
+	two-twelfths: $two-twelfths,
+	three-fourths: $three-fourths,
+	three-fifths: $three-fifths,
+	three-sixths: $three-sixths,
+	three-sevenths: $three-sevenths,
+	three-eighths: $three-eighths,
+	three-ninths: $three-ninths,
+	three-tenths: $three-tenths,
+	three-elevenths: $three-elevenths,
+	three-twelfths: $three-twelfths,
+	four-fifths: $four-fifths,
+	four-sixths: $four-sixths,
+	four-sevenths: $four-sevenths,
+	four-eighths: $four-eighths,
+	four-ninths: $four-ninths,
+	four-tenths: $four-tenths,
+	four-elevenths: $four-elevenths,
+	four-twelfths: $four-twelfths,
+	five-sixths: $five-sixths,
+	five-sevenths: $five-sevenths,
+	five-eighths: $five-eighths,
+	five-ninths: $five-ninths,
+	five-tenths: $five-tenths,
+	five-elevenths: $five-elevenths,
+	five-twelfths: $five-twelfths,
+	six-sevenths: $six-sevenths,
+	six-eighths: $six-eighths,
+	six-ninths: $six-ninths,
+	six-tenths: $six-tenths,
+	six-elevenths: $six-elevenths,
+	six-twelfths: $six-twelfths,
+	seven-eighths: $seven-eighths,
+	seven-ninths: $seven-ninths,
+	seven-tenths: $seven-tenths,
+	seven-elevenths: $seven-elevenths,
+	seven-twelfths: $seven-twelfths,
+	eight-ninths: $eight-ninths,
+	eight-tenths: $eight-tenths,
+	eight-elevenths: $eight-elevenths,
+	eight-twelfths: $eight-twelfths,
+	nine-tenths: $nine-tenths,
+	nine-elevenths: $nine-elevenths,
+	nine-twelfths: $nine-twelfths,
+	ten-elevenths: $ten-elevenths,
+	ten-twelfths: $ten-twelfths,
+	eleven-twelfths: $eleven-twelfths,
+);

@@ -1,0 +1,24 @@
+{
+  "name": "gridkit",
+  "version": "1.0.0",
+  "description": "Lightweight Sass grid framework",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node ./build/sass.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seothemes/gridkit.git"
+  },
+  "keywords": [
+    "grid",
+    "sass"
+  ],
+  "author": "seothemes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/seothemes/gridkit/issues"
+  },
+  "homepage": "https://github.com/seothemes/gridkit#readme",
+  "devDependencies": {}
+}

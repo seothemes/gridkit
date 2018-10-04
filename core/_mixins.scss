@@ -1,0 +1,44 @@
+////
+/// Tool imports.
+///
+/// These are used throughout the code but don't output CSS on their own. Things
+/// like functions, mixins, and extensions go here.
+///
+/// @group  Tools
+/// @author Lee Anthony <seothemeswp@gmail.com>
+/// @link   https://seothemes.com/themes/genesis-starter-theme
+////
+
+////
+/// Grid mixin
+///
+/// @group  Tools
+/// @author Lee Anthony <seothemeswp@gmail.com>
+/// @link   https://github.com/seothemes/genesis-starter-theme
+////
+
+@mixin grid() {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	> div {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+////
+/// Column mixin
+///
+/// @group  Tools
+/// @author Lee Anthony <seothemeswp@gmail.com>
+/// @link   https://github.com/seothemes/genesis-starter-theme
+////
+
+@mixin column( $width: one-half ) {
+	float: left;
+	width: map_get($columns, $width);
+	margin-bottom: $gutter;
+	margin-left: $gutter;
+}
