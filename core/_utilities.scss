@@ -27,7 +27,7 @@
 	width: 100%;
 }
 
-@media only screen and (min-width: $breakpoint) {
+@media (min-width: $breakpoint) {
 
 	.column,
 	.one-half,
